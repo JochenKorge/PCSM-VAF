@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v1.xsd">
+  <guid>c8c51fb4-2377-4927-9a64-976177793f1f</guid>
+  <name>MA.Obj.CheckIn</name>
+  <description></description>
+  <publisher></publisher>
+  <version>0.8</version>
+  <copyright></copyright>
+  <required-mfiles-version>19.9.8227.13</required-mfiles-version>
+  <extension-objects>
+    <extension-object>
+      <name>CreateNewObject</name>
+      <assembly>CreateNewObject.dll</assembly>
+      <class>CreateNewObject.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>

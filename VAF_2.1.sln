@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangePropertyWF", "ChangePropertyWF\ChangePropertyWF.csproj", "{6BDCE921-213F-40B4-B500-2FCBBA93A2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MA.Obj.Checkin", "CreateNewObject\MA.Obj.Checkin.csproj", "{EC285C34-C899-49B1-8939-0D885F43E792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDCE921-213F-40B4-B500-2FCBBA93A2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDCE921-213F-40B4-B500-2FCBBA93A2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDCE921-213F-40B4-B500-2FCBBA93A2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDCE921-213F-40B4-B500-2FCBBA93A2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC285C34-C899-49B1-8939-0D885F43E792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC285C34-C899-49B1-8939-0D885F43E792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC285C34-C899-49B1-8939-0D885F43E792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC285C34-C899-49B1-8939-0D885F43E792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64B69A63-FA64-4FFC-9A27-221599402824}
+	EndGlobalSection
+EndGlobal

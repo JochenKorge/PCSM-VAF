@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v1.xsd">
+  <guid>f02dba99-b2c7-4ff2-8235-01b82d64ed5c</guid>
+  <name>MyCompany.MyProduct.MyVaultApplication1</name>
+  <description></description>
+  <publisher></publisher>
+  <version>0.1</version>
+  <copyright></copyright>
+  <required-mfiles-version>19.9.8227.13</required-mfiles-version>
+  <extension-objects>
+    <extension-object>
+      <name>MyCompany.MyProduct.MyVaultApplication1</name>
+      <assembly>MyCompany.MyProduct.MyVaultApplication1.dll</assembly>
+      <class>MyCompany.MyProduct.MyVaultApplication1.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
